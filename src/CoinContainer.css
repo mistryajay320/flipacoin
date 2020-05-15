@@ -1,0 +1,32 @@
+.CoinContainer{
+    color: rgb(104, 143, 136);
+    font-weight: bold;
+    font-size: 30px;
+}
+
+.CoinContainer button {
+    padding: 10px 20px !important;
+    border-radius: 10px;
+    margin: 30px 20px 20px 30px;
+    background-color: whitesmoke;
+    border: 1px solid black;
+    width: 20rem;
+    text-align: center;
+  }
+
+  .CoinContainer button:hover{
+    background-color: grey;
+    cursor: pointer;
+    color: white;
+  }
+
+  .ResultFont{
+      font-weight: lighter;
+  }
+
+  .TempText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 100px;
+}
